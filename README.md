@@ -1,10 +1,12 @@
 # FMT Screenshot Editor
 
-Maak van een screenshot een helder beeld met je eigen woorden en stijl. Of maak een tekstkaart zonder afbeelding. Voor **Mac, Windows en Linux**, lokaal in Chrome of Edge, zonder account, abonnement of AI-sleutel.
+Maak van een screenshot een helder beeld met je eigen woorden en stijl. Of maak een tekstkaart zonder afbeelding. Voor **Mac, Windows en Linux**, lokaal in Chrome (of Edge), zonder account, abonnement of AI-sleutel.
 
 Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en geen designer. Gebruik het zoals het is, of neem het als vertrekpunt voor jouw eigen versie.
 
 ![Screenshot Editor met eigen afbeelding, onderschrift en stijl](docs/screenshot-editor.png)
+
+Getest op Windows Server 2025, Ubuntu 26.04 en macOS 26/27. De aanvullende macOS14-proef viel uit door een Chrome-crash; zie [de precieze controles en grenzen](PUBLICATIESTATUS.md).
 
 ## Beginnen
 
