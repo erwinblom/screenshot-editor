@@ -22,6 +22,7 @@ jobs:
           PYTHON: python
           TEST_CAPTURE: '1'
           DEBUG: 'pw:browser'
+          HEADED: '1'
       - uses: actions/upload-artifact@v4
         if: always()
         with:
