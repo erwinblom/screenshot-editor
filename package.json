@@ -1,0 +1,1 @@
+{"name":"fmt-screenshot-editor","version":"2.0.0","private":true,"description":"Offline Screenshot Editor voor Mac, Windows en Linux","scripts":{"test":"node tests/browser.cjs"},"devDependencies":{"playwright":"1.61.1"},"license":"MIT"}

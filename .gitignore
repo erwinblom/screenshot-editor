@@ -6,3 +6,8 @@ Resources/FMT.iconset/
 Controle/*.png
 Controle/*.tiff
 Controle/ongeldig-*
+node_modules/
+test-results/
+*.zip
+*.zip.sha256
+__pycache__/
