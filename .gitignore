@@ -1,0 +1,8 @@
+*.app/
+.DS_Store
+Resources/*.icns
+Resources/FMT-icon.png
+Resources/FMT.iconset/
+Controle/*.png
+Controle/*.tiff
+Controle/ongeldig-*
