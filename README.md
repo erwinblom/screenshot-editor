@@ -1,18 +1,26 @@
 # FMT Screenshot Editor
 
-Maak van een screenshot een helder beeld met je eigen woorden en stijl. Of maak een tekstkaart zonder afbeelding. Voor **Mac, Windows en Linux**, lokaal in Chrome (of Edge), zonder account, abonnement of AI-sleutel.
+## Van losse afbeelding naar een beeld om te delen
 
-Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en geen designer. Gebruik het zoals het is, of neem het als vertrekpunt voor jouw eigen versie.
+Voeg een onderschrift toe aan je screenshot, kies een formaat en maak het beeld passend bij jouw stijl. Of maak een tekstkaart met alleen een citaat.
 
-![Screenshot Editor met eigen afbeelding, onderschrift en stijl](docs/screenshot-editor.png)
+![Zo ziet Screenshot Editor eruit: je afbeelding, onderschrift en eigen stijl in één beeld](docs/screenshot-editor.png)
 
-Getest op Windows Server 2025, Ubuntu 26.04 en macOS 26/27. De aanvullende macOS14-proef viel uit door een Chrome-crash; zie [de precieze controles en grenzen](PUBLICATIESTATUS.md).
+**[Download Screenshot Editor voor Mac, Windows en Linux](https://github.com/erwinblom/screenshot-editor/releases/download/v2.0.0/FMT-Screenshot-Editor-bron-v2-0-0.zip)**
 
-## Beginnen
+Gratis · Lokaal op je computer · Geen account · Bewaren als PNG
 
-1. Download [het nieuwste bronpakket](https://github.com/erwinblom/screenshot-editor/releases/latest), pak de ZIP helemaal uit en houd de bestanden bij elkaar.
-2. Open **index.html** in Chrome of Edge. Afbeeldingen laden, tekstkaarten maken en PNG downloaden werken zonder installatie en zonder internet.
-3. Kies **Laad afbeelding**, schrijf een onderschrift en kies een formaat. Met **Bewaar PNG** komt je beeld in Downloads of in de map die je browser vraagt.
+## In drie stappen je eerste beeld
+
+1. Download de ZIP hierboven en pak hem helemaal uit.
+2. Open **index.html** in Chrome of Edge. Je hoeft voor de basis niets te installeren.
+3. Kies **Laad afbeelding**, schrijf een onderschrift en klik op **Bewaar PNG**.
+
+Je beeld staat daarna in Downloads of in de map die je browser vraagt. Afbeeldingen laden, tekstkaarten maken en PNG downloaden werken ook zonder internet.
+
+Getest op Windows Server 2025, Ubuntu 26.04 en macOS 26/27. De aanvullende macOS 14-proef viel uit door een Chrome-crash; zie [de precieze controles en grenzen](PUBLICATIESTATUS.md).
+
+## Zelf een screenshot maken vanuit de editor
 
 Wil je de schermkiezer en het werkgeheugen op een vast lokaal adres gebruiken? Start dan via de meegeleverde launcher. Je hebt hiervoor [Python 3](https://www.python.org/downloads/) (3.9 of nieuwer) nodig; er worden geen Python-pakketten geïnstalleerd.
 
@@ -40,6 +48,10 @@ De schermkiezer verschilt per systeem en browser. Op de Mac kan macOS extra sche
 Wacht op de melding **Bewaard in deze browser** voordat je sluit. De laatste afbeelding, tekst en stijl worden lokaal bewaard in het browserprofiel (IndexedDB). Er is geen upload, telemetrie of account. De app laadt geen externe scripts of fonts. Met **Wis werkgeheugen** verwijder je de bewaarde invoer en stijl; je gedownloade PNG's blijven bestaan.
 
 Werkgeheugen is geen back-up. Wissen van browsergegevens of een privévenster kan je werk verwijderen. Bij direct openen van index.html kunnen browserregels of het verplaatsen van de map het werkgeheugen beïnvloeden. Gebruik de starter en hetzelfde browserprofiel voor een vaste plek. Wisselen tussen index.html en het lokale adres opent verschillende werkgeheugens.
+
+## Waarom ik dit deel
+
+Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en geen designer. Gebruik het zoals het is, of neem het als vertrekpunt voor jouw eigen versie.
 
 ## Zo pas je Screenshot Editor aan
 
