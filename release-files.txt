@@ -1,5 +1,7 @@
+.github/workflows/platforms.yml
 .gitignore
 AGENTS.md
+CHANGELOG.md
 LEESMIJ.md
 LICENSE
 MERKVOORWAARDEN.md
@@ -20,7 +22,19 @@ Resources/app-icon.sha256
 Resources/fmt-target-logo.svg
 Sources/icon.swift
 Sources/main.swift
+Start Screenshot.bat
+Start Screenshot.command
+Start Screenshot.sh
 TWEEDE-MAC.md
 bouw.sh
+docs/NATIVE-MAC.md
+docs/screenshot-editor.png
+index.html
 maak-bronpakket.py
+package-lock.json
+package.json
 release-files.txt
+start.py
+tests/browser.cjs
+web/app.js
+web/style.css
