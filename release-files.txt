@@ -1,3 +1,4 @@
+.github/workflows/mac-check.yml
 .github/workflows/platforms.yml
 .gitignore
 AGENTS.md

@@ -1,5 +1,8 @@
 name: Platformcontrole
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches: [main, ch514-platforms]
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:

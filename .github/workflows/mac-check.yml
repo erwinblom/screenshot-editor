@@ -1,0 +1,28 @@
+name: Aanvullende Mac-controle
+on:
+  push:
+    branches: [ch514-maccheck]
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: macos-14
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --ignore-scripts
+      - run: npm test
+        env:
+          PYTHON: python
+          TEST_CAPTURE: '1'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshot-macos-14
+          path: test-results/
