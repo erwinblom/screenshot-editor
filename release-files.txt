@@ -39,3 +39,8 @@ start.py
 tests/browser.cjs
 web/app.js
 web/style.css
+Resources/FMT-tool.iconset/ic11.png
+Resources/FMT-tool.iconset/ic12.png
+Resources/FMT-tool.iconset/ic13.png
+Resources/FMT-tool.iconset/ic14.png
+Resources/FMT-tool.icns
