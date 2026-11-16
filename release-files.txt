@@ -3,12 +3,12 @@
 .gitignore
 AGENTS.md
 CHANGELOG.md
-LEESMIJ.md
+docs/LEESMIJ.md
 LICENSE
-MERKVOORWAARDEN.md
-PUBLICATIESTATUS.md
+docs/MERKVOORWAARDEN.md
+docs/PUBLICATIESTATUS.md
 README.md
-RECHTEN.md
+docs/RECHTEN.md
 Resources/FMT-tool-icon.png
 Resources/FMT-tool-icon.svg
 Resources/FMT-tool.iconset/ic07.png
@@ -26,9 +26,10 @@ Sources/main.swift
 Start Screenshot.bat
 Start Screenshot.command
 Start Screenshot.sh
-TWEEDE-MAC.md
+docs/TWEEDE-MAC.md
 bouw.sh
 docs/NATIVE-MAC.md
+docs/ONDERHOUD.md
 docs/screenshot-editor.png
 index.html
 maak-bronpakket.py
