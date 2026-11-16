@@ -1,16 +1,16 @@
 # FMT Screenshot Editor
 
-## Van losse afbeelding naar een beeld om te delen
-
-Voeg een onderschrift toe aan je screenshot, kies een formaat en maak het beeld passend bij jouw stijl. Of maak een tekstkaart met alleen een citaat.
+**Van losse afbeelding naar een beeld om te delen: met onderschrift, in jouw formaat en jouw stijl.**
 
 ![Zo ziet Screenshot Editor eruit: je afbeelding, onderschrift en eigen stijl in één beeld](docs/screenshot-editor.png)
 
 **[Download Screenshot Editor voor Mac, Windows en Linux](https://github.com/erwinblom/screenshot-editor/releases/download/v2.0.0/FMT-Screenshot-Editor-bron-v2-0-0.zip)**
 
-Gratis · Lokaal op je computer · Geen account · Bewaren als PNG
+Gratis · Geen account · Lokaal op je computer · Bewaren als PNG
 
-## In drie stappen je eerste beeld
+> **Klaar voor gebruik, en te personaliseren.** Het werkt zoals het is. Wil je het naar je eigen hand zetten, dan kan dat ook. [Spring naar: maak het van jezelf](#maak-het-van-jezelf).
+
+## Beginnen
 
 1. Download de ZIP hierboven en pak hem helemaal uit.
 2. Open **index.html** in Chrome of Edge. Je hoeft voor de basis niets te installeren.
@@ -18,9 +18,16 @@ Gratis · Lokaal op je computer · Geen account · Bewaren als PNG
 
 Je beeld staat daarna in Downloads of in de map die je browser vraagt. Afbeeldingen laden, tekstkaarten maken en PNG downloaden werken ook zonder internet.
 
-Getest op Windows Server 2025, Ubuntu 26.04 en macOS 26/27. De aanvullende macOS 14-proef viel uit door een Chrome-crash; zie [de precieze controles en grenzen](PUBLICATIESTATUS.md).
+## Wat kun je ermee
 
-## Zelf een screenshot maken vanuit de editor
+- **Screenshot maken:** kies in het browservenster een tabblad, venster of scherm en bevestig delen. De app neemt één beeld en stopt de opname meteen. Geluid wordt niet opgenomen.
+- **Afbeelding gebruiken:** laad PNG, JPG of WebP (tot 25 MB), of plak een gekopieerde afbeelding met Ctrl+V / ⌘V. De knop Plak afbeelding vraagt zo nodig klembordtoestemming.
+- **Tekstkaart maken:** kies Citaat / slogan en schrijf maximaal 500 tekens.
+- **Vormgeven:** vierkant (1080 × 1080), breed (1920 × 1080) of staand (1080 × 1920); wit, zwart of rood; onderschrift; zoom en positie van je afbeelding.
+- **Eigen stijl:** voeg optioneel naam, logo en website toe. Kies Bewaar stijl. Annuleren behoudt de vorige stijl. Leeg de velden en kies Geen logo om weer merkloos te exporteren.
+- **Bewaren:** download een PNG of kopieer het beeld naar je klembord. De PNG bevat jouw opmaak; geen verplicht FMT-logo.
+
+### Zelf een screenshot maken vanuit de editor
 
 Wil je de schermkiezer en het werkgeheugen op een vast lokaal adres gebruiken? Start dan via de meegeleverde launcher. Je hebt hiervoor [Python 3](https://www.python.org/downloads/) (3.9 of nieuwer) nodig; er worden geen Python-pakketten geïnstalleerd.
 
@@ -32,41 +39,46 @@ Wil je de schermkiezer en het werkgeheugen op een vast lokaal adres gebruiken? S
 
 Je browser opent **http://127.0.0.1:48763**. Open dat adres in Chrome of Edge als je standaardbrowser anders is. Laat het terminalvenster open tijdens gebruik; sluit het om te stoppen. Volgende keer gebruik je dezelfde starter en hetzelfde browserprofiel. De app is alleen op je eigen computer bereikbaar. De starter opent geen internetdienst.
 
-## Wat kun je ermee?
+## Maak het van jezelf
 
-- **Screenshot maken:** kies in het browservenster een tabblad, venster of scherm en bevestig delen. De app neemt één beeld en stopt de opname meteen. Geluid wordt niet opgenomen.
-- **Afbeelding gebruiken:** laad PNG, JPG of WebP (tot 25 MB), of plak een gekopieerde afbeelding met Ctrl+V / ⌘V. De knop Plak afbeelding vraagt zo nodig klembordtoestemming.
-- **Tekstkaart maken:** kies Citaat / slogan en schrijf maximaal 500 tekens.
-- **Vormgeven:** vierkant (1080 × 1080), breed (1920 × 1080) of staand (1080 × 1920); wit, zwart of rood; onderschrift; zoom en positie van je afbeelding.
-- **Eigen stijl:** voeg optioneel naam, logo en website toe. Kies Bewaar stijl. Annuleren behoudt de vorige stijl. Leeg de velden en kies Geen logo om weer merkloos te exporteren.
-- **Bewaren:** download een PNG of kopieer het beeld naar je klembord. De PNG bevat jouw opmaak; geen verplicht FMT-logo.
+**Zonder code:** kies **Eigen stijl** en voeg je naam, logo en website toe. Die komen in elk beeld dat je bewaart.
 
-De schermkiezer verschilt per systeem en browser. Op de Mac kan macOS extra schermopnametoestemming vragen. Op Linux bepalen de desktop en X11/Wayland mede welke schermen of vensters beschikbaar zijn. Deze browserversie heeft geen systeemwijde sneltoets; gebruik de knop. Een bestaande screenshot laden blijft altijd een bruikbare route. De oorspronkelijke native Mac-bron blijft in Sources/ beschikbaar; zie [de aanvullende handleiding](LEESMIJ.md).
+**Zonder AI:** open `web/app.js` in een teksteditor. Bovenaan staat een blok INSTELLINGEN met de beeldformaten en achtergrondkleuren. De kleuren van de editor zelf staan bovenaan `web/style.css`.
 
-## Waar blijft mijn werk?
+**Met AI als bouwmaatje:**
+
+1. Bewaar het originele ZIP-bestand. Maak een aparte uitgepakte kopie voor je eigen versie.
+2. Open die kopie in een AI-werkomgeving zoals Codex of Claude Code. Of geef een chat de complete ZIP. Stuur geen persoonlijke screenshots mee.
+3. Vraag één verandering en doorloop daarna de stappen onder Beginnen opnieuw.
+
+Kopieer deze opdracht:
+
+> Dit is FMT Screenshot Editor. Ik ben geen programmeur. Lees eerst AGENTS.md en de README. Ik gebruik [Mac/Windows/Linux]. Mijn wens: [één verandering]. Werk in een kopie, behoud wat volgens AGENTS.md heel moet blijven en vertel wat je werkelijk hebt getest. Geef het complete aangepaste project terug als je mijn map niet kunt bewerken. Publiceer of verstuur niets.
+
+**Ideeën, van makkelijk naar ambitieus:**
+
+1. Een andere kleur voor de knoppen.
+2. Een extra achtergrondkleur in je eigen huisstijl.
+3. Een extra beeldformaat, bijvoorbeeld 1200 × 630 voor links op sociale media.
+4. Een knop die je vaste onderschrift invult.
+5. Een ander lettertype of een andere plek voor je logo in het beeld.
+6. Meerdere stijlen bewaren en met één klik wisselen.
+
+Een gewone chat verandert je bestanden niet vanzelf. Vraag om een compleet aangepast project als download, pak dat in een nieuwe map uit en open `index.html`. Lukt dat niet, vraag dan voor een kleine wijziging om de bestandsnaam en de exacte tekst die je vervangt. Bewaar de werkende versie voordat je een volgende wens toevoegt.
+
+Maak je een eigen versie naast het origineel, laat je AI dan ook een andere poort en een andere naam voor het werkgeheugen kiezen. Zo blijft het werk van beide versies gescheiden.
+
+## Waar blijft mijn werk
 
 Wacht op de melding **Bewaard in deze browser** voordat je sluit. De laatste afbeelding, tekst en stijl worden lokaal bewaard in het browserprofiel (IndexedDB). Er is geen upload, telemetrie of account. De app laadt geen externe scripts of fonts. Met **Wis werkgeheugen** verwijder je de bewaarde invoer en stijl; je gedownloade PNG's blijven bestaan.
 
 Werkgeheugen is geen back-up. Wissen van browsergegevens of een privévenster kan je werk verwijderen. Bij direct openen van index.html kunnen browserregels of het verplaatsen van de map het werkgeheugen beïnvloeden. Gebruik de starter en hetzelfde browserprofiel voor een vaste plek. Wisselen tussen index.html en het lokale adres opent verschillende werkgeheugens.
 
-## Waarom ik dit deel
+## Grenzen
 
-Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en geen designer. Gebruik het zoals het is, of neem het als vertrekpunt voor jouw eigen versie.
+De schermkiezer verschilt per systeem en browser. Op de Mac kan macOS extra schermopnametoestemming vragen. Op Linux bepalen de desktop en X11/Wayland mede welke schermen of vensters beschikbaar zijn. Deze browserversie heeft geen systeemwijde sneltoets; gebruik de knop. Een bestaande screenshot laden blijft altijd een bruikbare route. De oorspronkelijke native Mac-bron blijft in Sources/ beschikbaar; zie [de aanvullende handleiding](docs/LEESMIJ.md).
 
-## Zo pas je Screenshot Editor aan
-
-Je kunt AI in gewone taal vragen om de software aan jouw werk aan te passen. Bijvoorbeeld: een extra beeldformaat, andere bedieningskleuren of een knop voor jouw vaste onderschrift.
-
-1. Bewaar het originele ZIP-bestand. Maak een aparte uitgepakte kopie voor je eigen versie.
-2. Open die kopie in een AI-programmeeromgeving, of geef een nieuwe ChatGPT- of Claude-chat de complete ZIP. Stuur geen persoonlijke screenshots mee.
-3. Vraag eerst één kleine wijziging. Gebruik bijvoorbeeld deze opdracht:
-
-> Dit is de complete broncode van Screenshot Editor. Ik ben geen programmeur. Lees de handleiding en bestanden. Maak alleen de rode bedieningsknoppen blauw (#2563EB); behoud de kleuren van de PNG-uitvoer en het appicoon. Werk in mijn projectkopie. Behoud bestaande functies, mijn gegevens en licenties. Help me de gewijzigde versie op mijn computer te openen. Test afbeelding laden, tekstkaart, PNG bewaren en heropenen. Vertel wat je echt hebt gecontroleerd. Publiceer of verstuur niets.
-
-4. Een gewone chat verandert je lokale bestanden niet vanzelf. Vraag om een compleet aangepast project als download, pak dat in een nieuwe map uit en open index.html. Werkt de download niet? Vraag voor een kleine wijziging om de bestandsnaam en exact welke tekst je vervangt.
-5. Controleer zelf de wijziging én een normale export. Bewaar de werkende versie voordat je een volgende wens toevoegt.
-
-De browserinterface staat in index.html en web/style.css; gedrag en beeldopmaak in web/app.js. Voor gebruik is geen Node.js nodig. Ontwikkelaars kunnen met Node.js 22, `npm ci` en `npm test` de browsercontroles draaien; Chrome en Python moeten geïnstalleerd zijn. Maak voor een eigen localhostversie ook een andere poort en IndexedDB-naam als je gescheiden werkgeheugen wilt.
+Getest op Windows Server 2025, Ubuntu 26.04 en macOS 26/27. De aanvullende macOS 14-proef viel uit door een Chrome-crash; zie [de precieze controles en grenzen](docs/PUBLICATIESTATUS.md).
 
 ## Als iets niet werkt
 
@@ -76,6 +88,14 @@ De browserinterface staat in index.html en web/style.css; gedrag en beeldopmaak 
 - **PNG-knop uitgeschakeld:** lees de melding; er ontbreekt een afbeelding/tekst of het onderschrift is te lang.
 - **Fout na een eigen wijziging:** geef je AI de foutmelding en de gewijzigde bestanden, zonder privéscreenshots of wachtwoorden. Of open je oorspronkelijke kopie.
 
-[Probleem melden](https://github.com/erwinblom/screenshot-editor/issues) · [Wat is getest](PUBLICATIESTATUS.md) · [MIT-code](LICENSE) · [FMT-merkvoorwaarden](MERKVOORWAARDEN.md)
+[Probleem melden](https://github.com/erwinblom/screenshot-editor/issues)
 
-Eigen aanpassingen hoef je niet terug te geven. Voor een aangepaste versie die je verspreidt, gebruik je een eigen naam en logo volgens de merkvoorwaarden. De code blijft vrij te hergebruiken onder MIT.
+## Waarom ik dit deel
+
+Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en geen designer. Gebruik het zoals het is, of neem het als vertrekpunt voor jouw eigen versie.
+
+## Licentie en credits
+
+Code en documentatie: [MIT](LICENSE). FMT-naam en iconen: [merkvoorwaarden](docs/MERKVOORWAARDEN.md). Eigen aanpassingen hoef je niet terug te geven. Voor een aangepaste versie die je verspreidt, gebruik je een eigen naam en logo.
+
+Voor ontwikkelaars: de controles draai je met Node.js 22, `npm ci` en `npm test`; Chrome en Python moeten geïnstalleerd zijn. Voor gebruik is geen Node.js nodig. Meer achtergrond staat in [docs](docs/).
