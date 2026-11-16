@@ -4,7 +4,7 @@
 
 ![Zo ziet Screenshot Editor eruit: je afbeelding, onderschrift en eigen stijl in één beeld](docs/screenshot-editor.png)
 
-**[Download Screenshot Editor voor Mac, Windows en Linux](https://github.com/erwinblom/screenshot-editor/releases/download/v2.0.0/FMT-Screenshot-Editor-bron-v2-0-0.zip)**
+**[Download Screenshot Editor voor Mac, Windows en Linux](https://github.com/erwinblom/screenshot-editor/releases/download/v2.0.1/FMT-Screenshot-Editor-bron-v2-0-1.zip)**
 
 Gratis · Geen account · Lokaal op je computer · Bewaren als PNG
 
