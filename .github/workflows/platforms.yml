@@ -2,6 +2,8 @@ name: Platformcontrole
 on:
   push:
     branches: [main, ch514-platforms]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read

@@ -1,6 +1,6 @@
 # Wijzigingen
 
-## Nog niet uitgebracht
+## 2.0.1 — 16 november 2026
 
 - Broncode van `index.html`, `web/app.js` en `web/style.css` leesbaar opgemaakt, met uitleg en een blok INSTELLINGEN. Werking en beelduitvoer zijn gelijk gebleven.
 - `AGENTS.md` herschreven voor de AI van wie de editor wil aanpassen. De vaste FMT-icoonafspraken staan nu in `docs/ONDERHOUD.md`.
